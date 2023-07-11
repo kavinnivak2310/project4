@@ -1,0 +1,43 @@
+body{
+    background-image: url(./images/back.jpg);
+    background-size: cover;
+}
+
+.container{
+    border: 5px solid red;
+    margin-left:1000px;
+    margin-right: 1000px;
+    margin-top: -50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.item{
+    width: 450px;
+    height: 550px;
+    background-color: deepskyblue;
+    border: 1px solid red;
+    margin: 5px;
+    margin-left: 100px;
+    text-align: center;
+    flex-wrap: wrap-reverse;
+    
+
+    
+    
+    
+}
+.name{
+    font-size: 100px;
+    border: 5px solid red;
+    background-color: red;
+    text-align: center;
+    margin-left:1000px;
+    margin-right: 1000px;
+    margin-top: 600px;
+    
+    
+}
